@@ -1,2 +1,14 @@
 #################################### Aug 26 ##########################################
 Go through Shannon's book once. 
+Got more idea of the TX parameters part. 
+
+Task given is to characterise the entire TX,CHANNEL & RX of our system.
+Also apart from the equations, the type of system on which this work is to be done,
+has to be kept in mind.
+Eg - the error correction work will be run on OBC microcontroller. 
+The GS will have SDR. After antenna, just confirm again that downconversion takes place.
+Although I know it does, but still check. And if after downconversion, direct ADC is there or not.
+Pretty sure its there. Because sampling is being taken place at the second step itself, how will
+carrier synchronisation even take place, in which I have to control the downconversion circuit itself.
+
+Also, should GNURadio be used for GS, or better to start writing code in Python?
